@@ -1,0 +1,14 @@
+[
+  {
+    "name": "primary_color",
+    "label": "Primary coral",
+    "type": "color",
+    "default": { "color": "#ff6854", "opacity": 100 }
+  },
+  {
+    "name": "accent_color",
+    "label": "Accent lime",
+    "type": "color",
+    "default": { "color": "#dff56f", "opacity": 100 }
+  }
+]

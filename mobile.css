@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .nav nav.mobile-nav {
+    display: flex;
+    position: absolute;
+    top: 82px;
+    left: 0;
+    right: 0;
+    padding: 24px;
+    background: #fbf8f0;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 12px 25px rgba(24, 32, 29, .08);
+  }
+}

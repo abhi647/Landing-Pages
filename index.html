@@ -1,112 +1,62 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Seven Billion — Reporting Accelerator
+  screenshotPath: ""
+-->
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Codex turns ideas into working software." />
-    <title>Codex — Build what matters</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="noise" aria-hidden="true"></div>
-    <header class="nav shell">
-      <a class="brand" href="#top" aria-label="Codex home">
-        <span class="brand-mark">C</span>
-        <span>CODEX</span>
-      </a>
-      <nav aria-label="Primary navigation">
-        <a href="#capabilities">Capabilities</a>
-        <a href="#process">Process</a>
-        <a class="nav-cta" href="#start">Start building</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero shell">
-        <div class="eyebrow"><span></span> Your engineering partner</div>
-        <h1>From blank page<br />to <em>working product.</em></h1>
-        <p class="hero-copy">
-          Codex reads your codebase, understands the assignment, and ships the work—
-          with the judgment to test, refine, and finish what it starts.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#start">Build with Codex <span>↗</span></a>
-          <a class="button text-link" href="#capabilities">See how it works <span>↓</span></a>
-        </div>
-
-        <div class="console" aria-label="Example Codex session">
-          <div class="console-bar">
-            <div class="dots"><i></i><i></i><i></i></div>
-            <span>codex / workspace</span>
-            <span class="status">● LIVE</span>
-          </div>
-          <div class="console-body">
-            <p><span class="prompt">›</span> Add team invitations and verify the flow</p>
-            <p class="muted">Scanning the repository and existing patterns…</p>
-            <p><span class="check">✓</span> Implemented invitation endpoint</p>
-            <p><span class="check">✓</span> Added transactional email template</p>
-            <p><span class="check">✓</span> 18 tests passing</p>
-            <p class="ready"><span>◆</span> Ready for review</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="marquee" aria-label="Codex qualities">
-        <div>THINKS IN SYSTEMS <b>✦</b> WRITES PRODUCTION CODE <b>✦</b> TESTS THE DETAILS <b>✦</b> FINISHES THE JOB <b>✦</b></div>
-      </section>
-
-      <section class="capabilities shell" id="capabilities">
-        <div class="section-heading">
-          <p>01 / CAPABILITIES</p>
-          <h2>More than autocomplete.<br />A collaborator with context.</h2>
-        </div>
-        <div class="cards">
-          <article>
-            <span class="card-number">01</span>
-            <div class="card-icon">⌁</div>
-            <h3>Understands the whole</h3>
-            <p>Maps unfamiliar codebases, follows conventions, and finds the real source of a problem before making changes.</p>
-          </article>
-          <article>
-            <span class="card-number">02</span>
-            <div class="card-icon">⌘</div>
-            <h3>Works end to end</h3>
-            <p>From implementation through tests and validation, Codex carries work across the finish line—not just to the next prompt.</p>
-          </article>
-          <article>
-            <span class="card-number">03</span>
-            <div class="card-icon">◇</div>
-            <h3>Keeps you in control</h3>
-            <p>Clear updates, reviewable changes, and thoughtful decisions make every step easy to understand and steer.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="process shell" id="process">
-        <div class="process-copy">
-          <p class="label">02 / THE LOOP</p>
-          <h2>Give it a goal.<br />Get back momentum.</h2>
-          <p>Codex turns high-level intent into concrete, verified progress while staying aligned with your code and your standards.</p>
-        </div>
-        <ol>
-          <li><span>01</span><strong>Understand</strong><small>Read the context, constraints, and code.</small></li>
-          <li><span>02</span><strong>Build</strong><small>Make focused, production-quality changes.</small></li>
-          <li><span>03</span><strong>Verify</strong><small>Run the checks that prove the outcome.</small></li>
-        </ol>
-      </section>
-
-      <section class="closing shell" id="start">
-        <p>YOUR NEXT IDEA IS WAITING</p>
-        <h2>Let’s make it real.</h2>
-        <a class="button primary light" href="mailto:hello@example.com">Start a project <span>↗</span></a>
-      </section>
-    </main>
-
-    <footer class="shell">
-      <a class="brand" href="#top"><span class="brand-mark">C</span><span>CODEX</span></a>
-      <p>Built with curiosity, context, and care.</p>
-      <p>© <span id="year"></span> Codex</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn fragmented business data into one clear, trusted view in 30 days.">
+  <title>Seven Billion Analytics — Clear decisions start here</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#top"><svg viewBox="0 0 42 42"><path d="M7 10.5 21 3l14 7.5v21L21 39 7 31.5z"/><path d="m13 14 8-4 8 4v12l-8 4-8-4z"/><circle cx="21" cy="20" r="3"/></svg><span>Seven Billion<br><b>Analytics</b></span></a>
+  <nav><a href="#problem">The problem</a><a href="#system">Our system</a><a href="#process">How it works</a></nav>
+  <a class="mini" href="#assessment">Free assessment <span>↗</span></a><button class="menu" aria-label="Open menu">☰</button>
+</div></header>
+<main id="top">
+<section class="hero">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal"><div class="pill"><i></i> BUILT FOR BETTER BUSINESS DECISIONS</div>
+      <h1>Stop chasing reports.<br><em>Start seeing clearly.</em></h1>
+      <p>We connect your ERP, CRM, Excel and operational data into one reporting system your leadership team can understand—and trust.</p>
+      <div class="actions"><a class="button coral" href="#assessment">Get my reporting roadmap <b>→</b></a><a class="watch" href="#system"><i>▶</i> See how it works</a></div>
+      <div class="promise"><strong>30</strong><p><b>days to clarity</b><br>Priority dashboards, connected and live.</p></div>
+    </div>
+    <div class="visual reveal">
+      <div class="rings"></div><div class="dashboard">
+        <div class="dash-top"><b>7B / LIVE VIEW</b><span>● Updated now</span></div>
+        <div class="hello"><div><small>GOOD MORNING, LEADERSHIP TEAM</small><h3>Here’s what needs your attention.</h3></div><i>SB</i></div>
+        <div class="metrics"><div><small>Net revenue</small><b>₹18.4Cr</b><span>↑ 12.8%</span></div><div><small>Gross margin</small><b>42.6%</b><span>↑ 3.1%</span></div><div><small>Inventory cover</small><b>38 days</b><em>6 SKUs low</em></div></div>
+        <div class="dash-bottom"><div class="chart"><p>Sales momentum <small>Last 8 weeks</small></p><svg viewBox="0 0 380 125" preserveAspectRatio="none"><defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6b57" stop-opacity=".3"/><stop offset="1" stop-color="#ff6b57" stop-opacity="0"/></linearGradient></defs><path d="M0 110C40 102 42 76 82 82s45 17 80-6 54-36 85-21 48-5 62-20 43-14 71-26v116H0z"/><path class="line" d="M0 110C40 102 42 76 82 82s45 17 80-6 54-36 85-21 48-5 62-20 43-14 71-26"/></svg></div>
+        <div class="alerts"><b>Needs attention</b><p>🔴 <span>West region returns<small>2.4× above average</small></span></p><p>🟡 <span>Inventory risk<small>6 fast-moving SKUs</small></span></p><p>🟢 <span>Marketing ROAS<small>Back above target</small></span></p></div></div>
+      </div><div class="float f1"><b>12h</b><span>weekly reporting<br><strong>saved</strong></span></div><div class="float f2"><b>✓</b><span>One source<br><strong>everyone trusts</strong></span></div>
+    </div>
+  </div>
+  <div class="wrap trust"><span>CONNECTED ACROSS YOUR BUSINESS</span><div><b>ERP</b><b>CRM</b><b>FINANCE</b><b>INVENTORY</b><b>SALES</b><b>OPERATIONS</b></div></div>
+</section>
+<section class="section problem" id="problem"><div class="wrap">
+  <div class="intro reveal"><span>THE REAL REPORTING PROBLEM</span><h2>Your data isn’t missing.<br><em>It just isn’t together.</em></h2><p>When systems stay disconnected, good people spend their time stitching numbers together instead of acting on them.</p></div>
+  <div class="problem-grid"><article class="reveal"><i class="peach">⌛</i><small>01</small><h3>Reports take too long</h3><p>Teams lose hours exporting files, copying data and preparing management reports.</p></article><article class="reveal"><i class="yellow">≠</i><small>02</small><h3>Numbers don’t match</h3><p>Different departments calculate and present the same business metrics differently.</p></article><article class="reveal"><i class="mint">▦</i><small>03</small><h3>Too much depends on Excel</h3><p>Critical processes rely on manual files, formulas and individual team members.</p></article><article class="reveal"><i class="blue">↝</i><small>04</small><h3>Decisions get delayed</h3><p>Leadership waits for reports before it can understand what changed and respond.</p></article></div>
+</div></section>
+<section class="section system" id="system"><div class="wrap system-grid">
+  <div class="reveal"><span class="kicker">ONE CONNECTED REPORTING SYSTEM</span><h2>A clearer business<br>starts with <em>one view.</em></h2><p>Bring your most important data into one dependable reporting environment—designed around the decisions your team needs to make.</p><a class="button lime" href="#assessment">Build my priority dashboards <b>→</b></a></div>
+  <div class="orbit reveal"><div class="ring r1"></div><div class="ring r2"></div><div class="core"><svg viewBox="0 0 42 42"><path d="M7 10.5 21 3l14 7.5v21L21 39 7 31.5z"/><circle cx="21" cy="21" r="5"/></svg><b>ONE TRUSTED<br>BUSINESS VIEW</b></div><span class="node n1">Sales</span><span class="node n2">Finance</span><span class="node n3">Inventory</span><span class="node n4">Operations</span><span class="node n5">Customers</span></div>
+</div><div class="wrap outcomes"><div><strong data-count="45">0</strong><span>reports automated</span></div><div><strong data-count="12">0</strong><span>hours saved weekly</span></div><div><strong data-count="6">0</strong><span>departments connected</span></div><div><strong>1</strong><span>version of the truth</span></div></div></section>
+<section class="section process" id="process"><div class="wrap"><div class="intro centered reveal"><span>THE REPORTING ACCELERATOR</span><h2>From fragmented reports to<br><em>trusted visibility in 30 days.</em></h2><p>A focused, practical path built around the reports and decisions that matter most.</p></div>
+<div class="steps"><article class="reveal"><b>WEEK 01</b><strong>01</strong><h3>Listen & map</h3><p>We review your systems, workflows and leadership priorities.</p></article><article class="reveal"><b>WEEK 02</b><strong>02</strong><h3>Connect & define</h3><p>We connect key data and agree on every important metric.</p></article><article class="reveal"><b>WEEK 03</b><strong>03</strong><h3>Build & validate</h3><p>We build priority dashboards and verify the numbers.</p></article><article class="reveal"><b>WEEK 04</b><strong>04</strong><h3>Launch & empower</h3><p>We launch, train your people and leave a system built to grow.</p></article></div></div></section>
+<section class="section assessment" id="assessment"><div class="wrap assessment-grid">
+  <div class="assessment-copy reveal"><span class="kicker">FREE REPORTING ASSESSMENT</span><h2>Let’s find your fastest path to <em>clarity.</em></h2><p>In one practical 30-minute conversation, we’ll review your reporting setup, identify the biggest gaps and outline clear next steps.</p><ul><li><i>✓</i> No generic software demo</li><li><i>✓</i> No technical access required</li><li><i>✓</i> A useful roadmap you can act on</li></ul><div class="human"><div><span>AK</span><span>RS</span><span>MP</span></div><p><b>Real people. Practical answers.</b><br>Talk with a reporting specialist.</p></div></div>
+  <form class="lead-form"><div class="form-head"><span>YOUR FREE ROADMAP</span><h3>Tell us about your reporting.</h3><p>We’ll use this to make the conversation useful from minute one.</p></div><div class="form-row"><label>First name<input required name="firstname" placeholder="Your first name"></label><label>Last name<input required name="lastname" placeholder="Your last name"></label></div><label>Work email<input required type="email" name="email" placeholder="you@company.com"></label><label>Company name<input required name="company" placeholder="Your company"></label><label>Biggest reporting challenge<select required name="challenge"><option value="">Choose one</option><option>Too much manual work in Excel</option><option>Data is spread across multiple systems</option><option>Leadership lacks clear dashboards</option><option>Reports take too long to prepare</option><option>Existing dashboards are difficult to trust</option><option>We want to automate reporting</option></select></label><button class="button coral" type="submit">Get my reporting roadmap <b>→</b></button><small>By submitting, you agree to be contacted about your reporting assessment.</small></form>
+</div></section></main>
+<footer><div class="wrap footer-grid"><a class="logo" href="#top"><svg viewBox="0 0 42 42"><path d="M7 10.5 21 3l14 7.5v21L21 39 7 31.5z"/></svg><span>Seven Billion<br><b>Analytics</b></span></a><p>Clearer numbers.<br>Brighter decisions.</p><div><a href="#problem">The problem</a><a href="#system">Our system</a><a href="#assessment">Free assessment</a></div></div><div class="wrap copyright">© <span id="year"></span> Seven Billion Analytics Pvt. Ltd. <b>Built for businesses ready to see clearly.</b></div></footer>
+<script src="script.js"></script>
+</body></html>
